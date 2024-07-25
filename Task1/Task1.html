@@ -7,7 +7,7 @@
 </head>
 <body>
   
-    <div class="new-navbar">
+    <div class="navbar1" id="navbar1">
         <div class="nav-item-left">
         <div class="nav-item-logo">
             <p class="green-par">Share Your Space</p>
@@ -33,22 +33,26 @@
         </div>
     </div>
 </div>
-    <div class="nav">
+    <div class="navbar2" id="navbar2">
+        <div class="nav2-items-left">
         <img src="/Company Logo.jpeg" alt="Company Logo">
         <input type="search" placeholder="search by location">
         <button class="nav-btn">Explore</button>
         <button class="nav-btn">Bookings</button>
         <button class="nav-btn">Suppliers</button>
         <button class="nav-btn">Community</button>
-        <div class="getstart">
+    </div>
+        <div class="nav2-items-right">
         <button class="start-btn">Get started</button>
     </div>
     </div>
 
     <div class="background-div">
         <form class="form-body">
+            <div class="form-header">
             <h1>Login to your account</h1>
-        <div class="inputs"></div>
+            </div>
+        <div class="inputs">
             <div class="input-label">
                 <label for="email">Email/phone number</label>
                 <input class="input-form" type="email" id="email" name="email">
@@ -58,7 +62,8 @@
                 <input class="input-form" type="password" id="password" name="pass">
             </div>
             <button class="forget-pass" type="button">Forgot Password</button> 
-            
+        </div>
+        <div class="login-buttons">
             <button class="login-btn" type="submit" disabled> Login 
                 <img src="White lock.jpeg" alt="white lcok" width="15px" height="15px">
             </button>
@@ -71,9 +76,10 @@
                     <img src="Google Logo.jpeg" alt="Google Logo" width="20" height="20">
                     Login with Google
                 </button>
-         
+            </div>
         </div>
         </form>
     </div>
+    <script src="navbar.js"></script>
 </body>
 </html>

@@ -1,0 +1,194 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+  padding: 10px 80px;
+  background-color: #0000008f;
+  position: fixed;
+  gap: 50.11%;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.nav-item-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-item-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item-logo img {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+}
+
+.green-par {
+  color: #008631;
+}
+
+.image img {
+  vertical-align: middle;
+}
+
+.background-div {
+  height: 100vh;
+  background-image: url(BG1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar2 {
+  padding: 15px 80px;
+  background-color: white;
+  display: flex;
+  gap: 440px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  transition: top 0.1s;
+}
+.nav2-items-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar2.bg-changed {
+  top: 0;
+  background-color: #0000008f;
+}
+
+.navbar2 input {
+  padding: 15px;
+  width: 230px;
+  height: 32px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: white;
+  font-weight: 200px;
+}
+.start-btn {
+  width: 100px;
+  height: 35px;
+  border: 2px solid green;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-body {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+.form-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  margin-top: 0px;
+}
+
+label {
+  margin-top: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+.down-arrow {
+  font-size: 16px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input-form {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.forget-pass {
+  margin-left: auto;
+  color: rgb(77, 77, 228);
+  font-weight: 600;
+  border: none;
+  background-color: white;
+}
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: rgba(0, 0, 255, 0.1);
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+.loginwith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.second-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #00000038;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.second-btn img {
+  margin-right: 10px;
+}
